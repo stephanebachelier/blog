@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Performance & mobile web blog",
+    "owner": "Stéphane Bachelier",
+    "description": "Ramblings of a freelance web developer/engineer"
   },
   "plugins": [
     "./plugins/paginator.coffee"
