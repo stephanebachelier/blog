@@ -1,76 +1,48 @@
 ---
 title: README
-author: the-wintersmith
-date: 2013-04-30
-template: article.jade
+author: stephane-bachelier
+date: 2013-11-12
+tdeveloperemplate: article.jade
 ---
 
-Welcome to your new blog! This is the default blog template with RSS, pagination and an archive. There are other templates available -- run `wintersmith new --help` to list them.
+Welcome to my new blog! Exit wordpress and all other blog engines. Don't take me wrong: I do not say they are bad. I just say they are too complicated to setup or maintain. My previous blog was on Wordpress. But this lead me to simply barely write any article. 
 
-## _Repeat after me:_ This is my blog. There are many like it, but this one is mine. My blog is my best friend. It is my life. I must master it as I must master my life. My blog, without me, is useless. Without my blog, I am useless.
+I want something simple,
+ * no database
+ * no server administration
+ * no more login
+ * no more update
+ * no more plugin mess
+ * no more potential blog hack or server hack in most severe cases
+ * no more caching issue
+ * etc
+ 
+Instead :
+ * write in markdown as I now exclusively use this language to write anything technical related.
+ * use CSS for preentation
+ * only generated static files
+ * deploy in one click on any server
 
-Good, now, the directory structure of your blog is as follows:
+Really simple.
+ 
+And better everything into a distributed control versioned system. After CVS, SVN and Mercurial I'm now using Git. Better (for me!).
 
-```
-├── config.json               <- site configuration
-├── contents
-│   ├── about.md
-│   ├── archive.json
-│   ├── articles              <– each article has its own directory
-│   │   ├── another-test
-│   │   │   └── index.md
-│   │   ├── bamboo-cutter
-│   │   │   ├── index.md
-│   │   │   └── taketori_monogatari.jpg
-│   │   ├── hello-world
-│   │   │   └── index.md
-│   │   ├── markdown-syntax
-│   │   │   └── index.md
-│   │   └── red-herring
-│   │       ├── banana.png
-│   │       └── index.md
-│   ├── authors               <- author metadata, check author.jade
-│   │   ├── baker.json
-│   │   └── the-wintersmith.json
-│   ├── css
-│   │   └── main.css
-│   └── feed.json
-├── plugins
-│   └── paginator.coffee      <- paginator plugin
-├── templates
-│   ├── archive.jade
-│   ├── article.jade
-│   ├── author.jade
-│   ├── feed.jade
-│   ├── index.jade
-│   └── layout.jade
-└── views
-    └── articles.coffee       <- view that lists articles
-```
+The goal is simply to return to what a blog is : share content or ideas by writing articles.
 
-Articles are sorted by date and 3 are shown per page, you can configure this and more in config.json. Check paginator.coffee for all options related to pagination, most plugins also have their own options.
+So no more headache :)
 
-### A typical article
+By the way why should it be another way ? A blog is simply putting 
+some text, eventually an image or maybe a video or better an embed youtube|vimeo|dailymotion|... video player. Why use dynamic pages to handle this ? 
 
-```markdown
----
-title: Hear me blog
-author: johndoe
-date: 2012-12-12 12:12
----
+I understand that it may not be appropriate for everyone but I've explained Git to some non-technical or non-developer users to work with, and, within a few hours or so they had understood the essence of Git and were able to use, with some assistance Git. I do not say all were able to use the command line. But some Great tools exist, like SourceTree from Atlassian. No advertising here, just sharing :)
 
-This will be shown as the article excerpt.
+Again it's not for all users.
 
-## A h2, hr or <span class="more"> marks where the intro cuts off
+So after some time I found some blog engine, and as I ended to write a lot of Javascript/Coffeescript most of the time, I choose one on top of nodejs. Thus Wintersmith. Simple, efficient, extendable. Oh I forgot to mention: open-sourced.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Thus my new blog. I do not think I will keep any content from my previous blog. Why should I ? Small content, not so much interesting being mainly flash/flex oriented and some content already 4-5 years old. And no time to look at this.
 
-```
+And this leads me to the last point. Why a blog ? Because I think I have a lots to share with others about my work being javascript/mobile/SPA/performance related.
 
-This is where I leave you to your own devices. Join **#wintersmith** on freenode if you have any questions.
+
 
