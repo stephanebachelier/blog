@@ -1,5 +1,3 @@
-fs = require 'fs'
-
 module.exports = (env, callback) ->
   class DraftablePage extends env.plugins.MarkdownPage
 
