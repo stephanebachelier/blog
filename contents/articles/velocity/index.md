@@ -2,7 +2,7 @@
 title: Returning from Velocity London
 author: stephane-bachelier
 date: 2013-11-15
-tdeveloperemplate: article.jade
+template: article.jade
 ---
 
 Back from Velocity London. Really, really great talks. I knew some guys, not personally, from different blogs or open-source projects that I follow on regular basis, or from last year conference. But I discover some others which are really excellent. 

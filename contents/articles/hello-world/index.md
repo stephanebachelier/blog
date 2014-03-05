@@ -2,7 +2,7 @@
 title: Hello World!
 author: stephane-bachelier
 date: 2013-11-12
-tdeveloperemplate: article.jade
+template: article.jade
 ---
 
 Welcome to my new blog! Exit wordpress and all other blog engines. Don't take me wrong: I do not say they are bad. I just say they are too complicated to setup or maintain. My previous blog was on Wordpress. But this lead me to simply barely write any articles. 
