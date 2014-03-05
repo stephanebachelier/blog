@@ -1,12 +1,13 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://blog.stephanebachelier.fr",
     "name": "Performance & mobile web blog",
     "owner": "Stéphane Bachelier",
     "description": "Ramblings of a freelance web developer/engineer"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "./plugins/draftable_page.coffee"
   ],
   "require": {
     "moment": "moment",
