@@ -8,7 +8,8 @@
   "plugins": [
     "./plugins/paginator.coffee",
     "./plugins/draftable_page.coffee",
-    "wintersmith-livereload"
+    "wintersmith-livereload",
+    "wintersmith-tag"
   ],
   "require": {
     "moment": "moment",

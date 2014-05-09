@@ -14,6 +14,12 @@ block header
     | #{ "Written by " }
     mixin author(page.metadata.author)
 
+
+  - var tags = env.helpers.getTagsFromArticle(page)
+  .header__taglist
+    each tag in tags
+      a.header__tag(href=env.helpers.getTagHome(tag).url)= tag
+
 block content
   article.article
     section.content!= typogr(page.html).typogrify()
