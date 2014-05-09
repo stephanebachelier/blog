@@ -3,7 +3,7 @@ title: Wintersmith page draft
 author: stephane-bachelier
 date: 2014-3-5
 template: article.jade
-draft: true
+draft: false
 ---
 
 This post cover the solution I've chosen to implement to support writing draft for wintersmith static generator.
@@ -11,8 +11,6 @@ This post cover the solution I've chosen to implement to support writing draft f
 ---
 
 ## Why ?
-
-## What ?
 
 The idea is to add a metadata `draft` in the article header which prevents an article from being published.
 
@@ -72,7 +70,13 @@ To exclude the page from the paginator, I filter the article where the `draft` m
 
 ## Extending
 
-This solution is really simple but it will prevent you from previewing your blog post while editing it. IMHO it's not a problem as markdown is made to be easy to read. And if you want a preview, it's easy to turning draft to false or remove the line.
+This solution is really simple but it will prevent you from previewing your blog post while editing it. IMHO it's not a problem as markdown is made to be easy to read. And if you want a preview, it's easy to turning draft to false or remove the line. 
+
+If you use [wintersmith-livereload](https://github.com/jnordberg/wintersmith-livereload), it will be definitely not a problem. By the time you have save the article, the web page will be reload :P
+
+## Code
+
+See this [gist](https://gist.github.com/stephanebachelier/2afc4c29c2e9a30b6e9d).
 
 ## References
 
