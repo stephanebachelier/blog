@@ -2,6 +2,8 @@
 title: Testing window.location with SinonJS
 author: stephane-bachelier
 date: 2014-05-09
+tags: sinon,javascript,test,stub
+comments: true
 template: article.jade
 ---
 
