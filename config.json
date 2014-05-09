@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://blog.stephanebachelier.fr",
-    "name": "Performance & mobile web blog",
+    "name": "Ramblings of a front-end engineer",
     "owner": "Stéphane Bachelier",
-    "description": "Ramblings of a freelance web developer/engineer."
+    "description": ""
   },
   "plugins": [
     "./plugins/paginator.coffee",
